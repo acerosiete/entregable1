@@ -1,7 +1,7 @@
 # entregable1
 Archivos evidencia del primer entregable
 
-Se especifica los archivos de evidencia de cada uno de los ejercicio:
+Se especifica los archivos de evidencia de cada uno de los ejercicios:
 
 Screenshots para el flujo de creación de ramas: git branch, git checkout, git switch:
 -GIT/ss1.png
