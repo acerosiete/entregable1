@@ -1,0 +1,16 @@
+  version: '4.1'
+  
+  services:
+
+    mongo:
+      image: mongo:latest
+      restart: always
+      container_name: ejemplo-mongo
+      environment:
+        MONGO_INITDB_ROOT_USERNAME: root
+        MONGO_INITDB_ROOT_PASSWORD: secret
+      volumes:
+        - ./data:/data/db
+        - ./data/log:/var/log/mongodb/
+      ports:
+        - '27018:27017'
